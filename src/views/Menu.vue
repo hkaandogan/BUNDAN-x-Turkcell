@@ -107,6 +107,7 @@ import SogukIceceklerWh from "@/assets/icons/soguk-icecek-icon-wh.svg"
 import TatlilarWh from "@/assets/icons/tatlilar-icon-wh.svg";
 import TostlarWh from "@/assets/icons/tostlar-icon-wh.svg";
 
+import iphone from "@/assets/cihazlar/iphone-13.jpg";
 import firavun from "@/assets/burgerler/firavun.jpg";
 import yoda from "@/assets/burgerler/yoda.jpg";
 import Baltazar from "@/assets/burgerler/baltazr-burger.jpg";
@@ -211,7 +212,7 @@ export default {
           //{name: "Baltazar Burger",category:"Burgerler",price:"20",minute:"20 Dk",img:Baltazar,id:"3",model:"/models/Baltazar1-70.glb"},
           //{name: "Baltazar Texas Burger",category:"Burgerler",price:"20",minute:"20 Dk",img:BaltazarTexas,id:"3",model:"/models/Baltazar2-70.glb"},
 
-          {name: "iPhone 13 Pro Max",category:"Modeller",price:"20",minute:"20 Dk",img:yoda,id:"3",model:"/models/iphone-model.glb"},
+          {name: "iPhone 13 Pro Max",category:"Modeller",price:"20",minute:"20 Dk",img:iphone,id:"3",model:"/models/iphone-13-scaled.glb"},
           {name: "Firavun Heykeli",category:"Modeller",price:"20",minute:"20 Dk",img:firavun,id:"4",model:"/models/firavun-yer.glb"},
           // {name: "Special Burger",category:"Burgerler",price:"20",minute:"20 Dk",img:Special,id:"5",model:"/models/scaled_burger.glb"},
           // {name: "Chicken Burger",category:"Burgerler",price:"20",minute:"20 Dk",img:Chicken,id:"1",model:"/models/scaled_burger.glb"},
