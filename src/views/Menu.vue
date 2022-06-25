@@ -7,7 +7,7 @@
           hide-on-scroll
           color="transparent"
           elevation="0"
-          src="../assets/bg/ust-dalga.svg"
+          src="../assets/bg/ust-dalga-turkcell.svg"
           :height="$vuetify.breakpoint.mobile? '60' :  '120'">
         <template v-slot:img="{props}">
           <v-img
@@ -21,7 +21,7 @@
             elevation="0"
             class="rounded-circle mt-12 logo-card">
           <v-img
-              src="../assets/bundan-logo.png"
+              src="../assets/turkcell-logo.svg"
               :max-height="$vuetify.breakpoint.mobile? '85' :  '120'"
               :max-width="$vuetify.breakpoint.mobile? '85' :  '120'"
               v-bind:style="$vuetify.breakpoint.mobile? 'border-width: 6px;' :'border-width: 9px;'"
@@ -41,7 +41,7 @@
                         :whicon="category.whicon"
                         :cname="category.name"
                         :getproducts="getproducts"
-                        :isfirst = "category.name==='Modeller'"
+                        :isfirst = "category.name==='Telefonlar'"
                     />
                 </v-col>
               </v-row>
@@ -107,7 +107,7 @@ import SogukIceceklerWh from "@/assets/icons/soguk-icecek-icon-wh.svg"
 import TatlilarWh from "@/assets/icons/tatlilar-icon-wh.svg";
 import TostlarWh from "@/assets/icons/tostlar-icon-wh.svg";
 
-import iphone from "@/assets/cihazlar/iphone-13.jpg";
+import iphonepro from "@/assets/cihazlar/iphone-13.jpg";
 import firavun from "@/assets/burgerler/firavun.jpg";
 import yoda from "@/assets/burgerler/yoda.jpg";
 import Baltazar from "@/assets/burgerler/baltazr-burger.jpg";
@@ -188,13 +188,13 @@ export default {
     return {
       selectedCategory : '',
       categories: [
-          {name: "Modeller", icon: Bundan, whicon: Bundan},
-          // {name: "Tostlar", icon: TostlarP, whicon: TostlarS},
-          // {name: "Yan Ürünler", icon: EkstralarP, whicon: EkstralarS},
-          // {name: "Tatlılar", icon: TatlilarP, whicon: TatlilarS},
-          // {name: "Kahveler", icon: KahvelerP, whicon: KahvelerS},
-          // {name: "Çaylar", icon: BitkiCaylariP, whicon: BitkiCaylariS},
-          // {name: "Soğuk İçecekler", icon: SogukIceceklerP, whicon:SogukIceceklerS},
+          {name: "Telefonlar", icon: Bundan, whicon: Bundan},
+          {name: "Tostlar", icon: TostlarP, whicon: TostlarS},
+          {name: "Yan Ürünler", icon: EkstralarP, whicon: EkstralarS},
+          {name: "Tatlılar", icon: TatlilarP, whicon: TatlilarS},
+          {name: "Kahveler", icon: KahvelerP, whicon: KahvelerS},
+          {name: "Çaylar", icon: BitkiCaylariP, whicon: BitkiCaylariS},
+          {name: "Soğuk İçecekler", icon: SogukIceceklerP, whicon:SogukIceceklerS},
 
           //{name: "Burgerler", icon: Burger,whicon: BurgerWh},
           //{name: "Tostlar", icon: Tostlar,whicon: TostlarWh},
@@ -212,8 +212,8 @@ export default {
           //{name: "Baltazar Burger",category:"Burgerler",price:"20",minute:"20 Dk",img:Baltazar,id:"3",model:"/models/Baltazar1-70.glb"},
           //{name: "Baltazar Texas Burger",category:"Burgerler",price:"20",minute:"20 Dk",img:BaltazarTexas,id:"3",model:"/models/Baltazar2-70.glb"},
 
-          {name: "iPhone 13 Pro Max",category:"Modeller",price:"20",minute:"20 Dk",img:iphone,id:"3",model:"/models/iphone-13-scaled.glb"},
-          {name: "Firavun Heykeli",category:"Modeller",price:"20",minute:"20 Dk",img:firavun,id:"4",model:"/models/firavun-yer.glb"},
+          {name: "iPhone 13 Pro Max",category:"Telefonlar",price:"20",minute:"20 Dk",img:iphonepro,id:"3",model:"/models/iphone-13-scaled.glb"},
+          {name: "Samsung Galaxy S22 Ultra",category:"Telefonlar",price:"20",minute:"20 Dk",img:samsung,id:"4",model:"/models/firavun-yer.glb"},
           // {name: "Special Burger",category:"Burgerler",price:"20",minute:"20 Dk",img:Special,id:"5",model:"/models/scaled_burger.glb"},
           // {name: "Chicken Burger",category:"Burgerler",price:"20",minute:"20 Dk",img:Chicken,id:"1",model:"/models/scaled_burger.glb"},
           // {name: "Classic Burger",category:"Burgerler",price:"20",minute:"20 Dk",img:Klasik,id:"2",model:"/models/scaled_burger.glb"},
