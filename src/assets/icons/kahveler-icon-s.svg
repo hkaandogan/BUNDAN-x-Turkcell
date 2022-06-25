@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_393" data-name="Rectangle 393" width="50" height="50"/>
+    </clipPath>
+  </defs>
+  <g id="kahveler-icon-wh" clip-path="url(#clip-path)">
+    <g id="coffee-bean" transform="translate(-2 -2)">
+      <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="15.5" cy="21.5" rx="15.5" ry="21.5" transform="translate(4 6)" fill="rgba(0,0,0,0)" stroke="#222" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Path_1533" data-name="Path 1533" d="M40.823,9.358a12.017,12.017,0,0,1,8.8.906c7.129,3.885,8.531,15.063,3.28,24.7C49.78,40.691,44.921,44.741,40,46.264" transform="translate(-6.355 -0.513)" fill="rgba(0,0,0,0)" stroke="#222" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Path_1534" data-name="Path 1534" d="M22.274,48.82C34.008,29.357,10.54,25.463,22.274,6" transform="translate(-2.628)" fill="rgba(0,0,0,0)" stroke="#222" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

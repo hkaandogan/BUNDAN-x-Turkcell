@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_357" data-name="Rectangle 357" width="50" height="50" fill="#de6c02"/>
+    </clipPath>
+  </defs>
+  <g id="tatlilar-icon" clip-path="url(#clip-path)">
+    <g id="cake-slice" transform="translate(-1 -2)">
+      <path id="Path_1541" data-name="Path 1541" d="M2,25H18.224V37.979a3.245,3.245,0,0,0,3.245,3.245h0a3.245,3.245,0,0,0,3.245-3.245V25H50.672" transform="translate(0 -3.021)" fill="none" stroke="#de6c02" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_25" data-name="Line 25" x2="22" transform="translate(29 33)" fill="none" stroke="#de6c02" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_26" data-name="Line 26" x2="12" transform="translate(2 33)" fill="none" stroke="#de6c02" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Path_1542" data-name="Path 1542" d="M19.846,9C6.388,9,2,16.633,2,21.979V44.693H50.672V21.979Z" fill="none" stroke="#de6c02" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

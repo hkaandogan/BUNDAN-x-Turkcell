@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_363" data-name="Rectangle 363" width="50" height="50" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="favoriler-icon-wh" clip-path="url(#clip-path)">
+    <g id="romantic-dinner" transform="translate(-2 -0.667)">
+      <path id="Path_1547" data-name="Path 1547" d="M34.037,25.072a4.609,4.609,0,0,0-3.7,1.877,4.622,4.622,0,1,0-6.978,6.027l6.978,6.977,6.977-6.977a4.63,4.63,0,0,0-3.274-7.9Z" transform="translate(-3.333 -2.845)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Path_1548" data-name="Path 1548" d="M49.333,40.667v-5A21.667,21.667,0,1,0,6,35.667v5" transform="translate(-0.667 -1)" fill="none" stroke="#fff" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_28" data-name="Line 28" x2="50" transform="translate(2 44.667)" fill="none" stroke="#fff" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_29" data-name="Line 29" y1="5" transform="translate(27 7.667)" fill="none" stroke="#fff" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

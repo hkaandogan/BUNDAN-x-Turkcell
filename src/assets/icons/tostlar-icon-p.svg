@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_409" data-name="Rectangle 409" width="50" height="50"/>
+    </clipPath>
+  </defs>
+  <g id="tostlar-icon-wh" clip-path="url(#clip-path)">
+    <g id="bread" transform="translate(-1 -1)">
+      <line id="Line_20" data-name="Line 20" x2="2" y2="3" transform="translate(26 21)" fill="none" stroke="#ef5f5f" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_21" data-name="Line 21" x1="2" y2="3" transform="translate(30 34)" fill="none" stroke="#ef5f5f" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_22" data-name="Line 22" y1="2" transform="translate(35 13)" fill="none" stroke="#ef5f5f" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_23" data-name="Line 23" y1="2" x2="2" transform="translate(15 13)" fill="none" stroke="#ef5f5f" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_24" data-name="Line 24" y1="2" transform="translate(19 32)" fill="none" stroke="#ef5f5f" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Path_1540" data-name="Path 1540" d="M48.659,14.6A11.127,11.127,0,0,0,37.4,4H14.258A11.127,11.127,0,0,0,3,14.6,10.869,10.869,0,0,0,9.52,24.831V47.488H42.139V24.833A10.869,10.869,0,0,0,48.659,14.6Z" fill="rgba(0,0,0,0)" stroke="#ef5f5f" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

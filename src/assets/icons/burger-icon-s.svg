@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_389" data-name="Rectangle 389" width="50" height="50"/>
+    </clipPath>
+  </defs>
+  <g id="burger-icon-wh" clip-path="url(#clip-path)">
+    <g id="cheeseburger" transform="translate(-1 -1)">
+      <path id="Path_1524" data-name="Path 1524" d="M46.564,46h0a8.034,8.034,0,0,1-8.034,8.034H16.03A8.034,8.034,0,0,1,8,46H8" transform="translate(-1.18 -7.864)" fill="rgba(0,0,0,0)" stroke="#222" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Path_1525" data-name="Path 1525" d="M8,22.068H8A16.068,16.068,0,0,1,24.068,6H30.5A16.068,16.068,0,0,1,46.564,22.068" transform="translate(-1.18)" fill="rgba(0,0,0,0)" stroke="#222" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_6" data-name="Line 6" x1="1.928" y1="1.928" transform="translate(16.461 15.32)" fill="none" stroke="#222" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_7" data-name="Line 7" y1="1.928" x2="1.928" transform="translate(24.174 12.427)" fill="none" stroke="#222" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_8" data-name="Line 8" y1="0.964" transform="translate(35.743 14.355)" fill="none" stroke="#222" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Path_1526" data-name="Path 1526" d="M27.709,30.82H4.41A2.41,2.41,0,0,1,2,28.41H2A2.41,2.41,0,0,1,4.41,26H47.794a2.41,2.41,0,0,1,2.41,2.41h0a2.41,2.41,0,0,1-2.41,2.41h-7.23l-6.427,6.427Z" transform="translate(0 -3.932)" fill="rgba(0,0,0,0)" stroke="#222" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Path_1527" data-name="Path 1527" d="M44.581,32A5.624,5.624,0,0,1,50.2,37.624h0a5.624,5.624,0,0,1-5.624,5.624H7.624A5.624,5.624,0,0,1,2,37.624H2A5.624,5.624,0,0,1,7.624,32" transform="translate(0 -5.111)" fill="rgba(0,0,0,0)" stroke="#222" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

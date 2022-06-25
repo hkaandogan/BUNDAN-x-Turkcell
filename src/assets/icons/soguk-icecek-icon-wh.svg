@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_366" data-name="Rectangle 366" width="50" height="50" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="soguk-icecek-icon-wh" clip-path="url(#clip-path)">
+    <g id="soft-drink" transform="translate(-4.377 -1)">
+      <path id="Path_1528" data-name="Path 1528" d="M42.748,56.233H32.638a3.231,3.231,0,0,1-3.224-3.016L28,32H47.387L45.972,53.217a3.231,3.231,0,0,1-3.224,3.016Z" transform="translate(-2.619 -5.767)" fill="none" stroke="#fff" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_9" data-name="Line 9" x2="6.462" transform="translate(18.919 6.039)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Path_1529" data-name="Path 1529" d="M29.091,21.387c-1.109-5.641-3.71-10.642-3.71-12.924V2H18.919V8.462c0,2.9-4.2,10.195-4.2,17.61s1.026,10,1.026,13.541-1.368,5.4-1.368,7.415c0,1.631,1.217,3.439,2.927,3.439H22.15" fill="none" stroke="#fff" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_10" data-name="Line 10" x2="17.663" transform="translate(26.243 39.158)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

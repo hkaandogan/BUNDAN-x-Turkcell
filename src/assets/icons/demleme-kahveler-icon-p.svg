@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_401" data-name="Rectangle 401" width="50" height="50"/>
+    </clipPath>
+  </defs>
+  <g id="demleme-kahveler-icon-wh" clip-path="url(#clip-path)">
+    <g id="coffee-maker">
+      <path id="Path_1535" data-name="Path 1535" d="M27,32.3V26H45.9v6.3a9.41,9.41,0,0,1-9.45,9.45h0A9.41,9.41,0,0,1,27,32.3Z" transform="translate(1.249 1.199)" fill="rgba(0,0,0,0)" stroke="#ef5f5f" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_14" data-name="Line 14" x2="19" transform="translate(28 48)" fill="none" stroke="#ef5f5f" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Path_1536" data-name="Path 1536" d="M27.25,31.25H24.1a2.106,2.106,0,0,1-2.1-2.1V26h5.25" transform="translate(0.999 1.199)" fill="rgba(0,0,0,0)" stroke="#ef5f5f" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_15" data-name="Line 15" y2="6" transform="translate(38 15)" fill="none" stroke="#ef5f5f" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Path_1537" data-name="Path 1537" d="M2,14.6V2H41.9a6.3,6.3,0,0,1,0,12.6H16.7V48.2H2Z" fill="rgba(0,0,0,0)" stroke="#ef5f5f" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
