@@ -97,13 +97,13 @@
                   </v-btn>
                  <v-container class="pa-0 mt-5">
                    <v-row justify="space-between">
-                     <v-col class="font-weight-medium text--darken-1" style="font-family: 'Red Hat Display', sans-serif !important;">
+                     <!-- <v-col class="font-weight-medium text--darken-1" style="font-family: 'Red Hat Display', sans-serif !important;">
                        Modeller
-                     </v-col>
+                     </v-col> -->
                      <v-spacer/>
-                     <v-col class="font-weight-medium text--darken-1 text-end pr-0" style="font-family: 'Red Hat Display', sans-serif !important;">
+                     <!-- <v-col class="font-weight-medium text--darken-1 text-end pr-0" style="font-family: 'Red Hat Display', sans-serif !important;">
                        20 Dakika
-                     </v-col>
+                     </v-col> -->
                    </v-row>
                  </v-container>
                   <div class="mt-2 pt-0 font-weight-bold text-h5" style="font-family: 'Red Hat Display', sans-serif !important;">{{ product.name }}</div>
@@ -116,9 +116,9 @@
                   <v-container class="pa-0">
                     <v-row class="mt-3" justify="space-between">
                       <v-col>
-                        <div class="font-weight-medium black--text text-h5" style="font-family: 'Red Hat Display', sans-serif !important;">
+                        <!-- <div class="font-weight-medium black--text text-h5" style="font-family: 'Red Hat Display', sans-serif !important;">
                           60.99
-                        </div>
+                        </div> -->
                       </v-col>
                       <v-spacer/>
                       <!-- <v-col class="pr-0">
