@@ -115,12 +115,12 @@ import TostlarWh from "@/assets/icons/tostlar-icon-wh.svg";
 
 import samsung from "@/assets/cihazlar/samsung.jpg";
 import iphone from "@/assets/cihazlar/iphone-13.jpg";
-import firavun from "@/assets/burgerler/firavun.jpg";
-import yoda from "@/assets/burgerler/yoda.jpg";
-import Baltazar from "@/assets/burgerler/baltazr-burger.jpg";
-import BaltazarTexas from "@/assets/burgerler/baltazar-texas-burger.jpg";
-import Chicken from "@/assets/burgerler/chicken-burger.jpg";
-import Klasik from "@/assets/burgerler/klasik_punica.jpg";
+import monitor from "@/assets/cihazlar/monitor.jpg";
+import laptop from "@/assets/cihazlar/laptop.jpg";
+import kahve from "@/assets/cihazlar/kahve-makinesi.jpg";
+import supurge from "@/assets/cihazlar/supurge.jpg";
+import buzdolabi from "@/assets/cihazlar/buzdolabi.jpg";
+import camasir from "@/assets/cihazlar/camasir-makinesi.jpg";
 import Marinated from "@/assets/burgerler/marinated.jpg";
 import Mushroom from "@/assets/burgerler/mushroom.jpg";
 import Special from "@/assets/burgerler/special_punica.jpg";
@@ -197,7 +197,7 @@ export default {
       categories: [
           {name: "Telefonlar", icon: TelefonlarS, whicon: Telefonlar},
           {name: "Ev Aletleri", icon: EvAletleriS, whicon: EvAletleri},
-          {name: "Tablet", icon: TabletS, whicon: Tablet},
+          {name: "Tablet/Bilgisayar", icon: TabletS, whicon: Tablet},
           {name: "Beyaz Eşya", icon: BeyazEsyaS, whicon: BeyazEsya},
           //{name: "Kahveler", icon: KahvelerP, whicon: KahvelerS},
           // {name: "Çaylar", icon: BitkiCaylariP, whicon: BitkiCaylariS},
@@ -219,14 +219,17 @@ export default {
           //{name: "Baltazar Burger",category:"Burgerler",price:"20",minute:"20 Dk",img:Baltazar,id:"3",model:"/models/Baltazar1-70.glb"},
           //{name: "Baltazar Texas Burger",category:"Burgerler",price:"20",minute:"20 Dk",img:BaltazarTexas,id:"3",model:"/models/Baltazar2-70.glb"},
 
-          {name: "iPhone 13 Pro Max",category:"Telefonlar",price:"20",minute:"20 Dk",img:iphone,id:"3",model:"/models/iphone-13-scaled.glb"},
-          {name: "Samsung Galaxy S22 Ultra",category:"Telefonlar",price:"20",minute:"20 Dk",img:samsung,id:"4",model:"/models/samsung-s20.glb"},
-          // {name: "Special Burger",category:"Burgerler",price:"20",minute:"20 Dk",img:Special,id:"5",model:"/models/scaled_burger.glb"},
-          // {name: "Chicken Burger",category:"Burgerler",price:"20",minute:"20 Dk",img:Chicken,id:"1",model:"/models/scaled_burger.glb"},
-          // {name: "Classic Burger",category:"Burgerler",price:"20",minute:"20 Dk",img:Klasik,id:"2",model:"/models/scaled_burger.glb"},
-          //{name: "Elma",category:"Bitkicaylari",price:"20",minute:"20 Dk",img:Elma,id:"6",model:""},
-          // {name: "Ihlamur",category:"Çaylar",price:"20",minute:"",img:Ihlamur,id:"7",model:""},
-          // {name: "Kusburnu",category:"Çaylar",price:"20",minute:"",img:Kusburnu,id:"8",model:""},
+          {name: "iPhone 13 Pro Max",category:"Telefonlar",price:"",minute:"",img:iphone,id:"3",model:"/models/iphone-13-scaled.glb"},
+          {name: "Samsung Galaxy S22 Ultra",category:"Telefonlar",price:"",minute:"",img:samsung,id:"4",model:"/models/samsung-s20.glb"},
+          
+          {name: "Asus TUF VG27AQ",category:"Tablet/Bilgisayar",price:"",minute:"",img:monitor,id:"5",model:"/models/samsung-s20.glb"},
+          {name: "Apple MacBook Pro",category:"Tablet/Bilgisayar",price:"",minute:"",img:laptop,id:"1",model:"/models/samsung-s20.glb"},
+          
+          {name: "Fakir Kaave Makinesi",category:"Ev Aletleri",price:"",minute:"",img:kahve,id:"2",model:"/models/samsung-s20.glb"},
+          {name: "Dyson V12",category:"Ev Aletleri",price:"",minute:"",img:supurge,id:"6",model:"/models/samsung-s20.glb"},
+          
+          {name: "Arçelik Buzdolabı",category:"Beyaz Eşya",price:"",minute:"",img:buzdolabi,id:"7",model:"/models/samsung-s20.glb"},
+          {name: "Bosch Çamaşır Makinesi",category:"Beyaz Eşya",price:"",minute:"",img:camasir,id:"8",model:"/models/samsung-s20.glb"},
           // {name: "Papatya",category:"Çaylar",price:"20",minute:"",img:Papatya,id:"9",model:""},
           //{name: "Brasil",category:"Demlemekahveler",price:"20",minute:"20 Dk",img:Brasil,id:"10",model:""},
           //{name: "Burundi",category:"Demlemekahveler",price:"20",minute:"20 Dk",img:Burundi,id:"11",model:""},
