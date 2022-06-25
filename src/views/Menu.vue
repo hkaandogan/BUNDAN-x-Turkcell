@@ -121,7 +121,7 @@ import kahve from "@/assets/cihazlar/kahve-makinesi.jpg";
 import supurge from "@/assets/cihazlar/supurge.jpg";
 import buzdolabi from "@/assets/cihazlar/buzdolabi.jpg";
 import camasir from "@/assets/cihazlar/camasir-makinesi.jpg";
-import Marinated from "@/assets/burgerler/marinated.jpg";
+import watch from "@/assets/cihazlar/watch.jpg";
 import Mushroom from "@/assets/burgerler/mushroom.jpg";
 import Special from "@/assets/burgerler/special_punica.jpg";
 
@@ -221,7 +221,9 @@ export default {
 
           {name: "iPhone 13 Pro Max",category:"Telefonlar",price:"",minute:"",img:iphone,id:"3",model:"/models/iphone-13-scaled.glb"},
           {name: "Samsung Galaxy S22 Ultra",category:"Telefonlar",price:"",minute:"",img:samsung,id:"4",model:"/models/samsung-s20.glb"},
-          
+          {name: "Apple MacBook Pro",category:"Telefonlar",price:"",minute:"",img:laptop,id:"9",model:"/models/macbook.glb"},
+          {name: "Apple Watch",category:"Telefonlar",price:"",minute:"",img:watch,id:"10",model:"/models/watch.glb"},
+
           {name: "Asus TUF VG27AQ",category:"Tablet/Bilgisayar",price:"",minute:"",img:monitor,id:"5",model:"/models/samsung-s20.glb"},
           {name: "Apple MacBook Pro",category:"Tablet/Bilgisayar",price:"",minute:"",img:laptop,id:"1",model:"/models/samsung-s20.glb"},
           
