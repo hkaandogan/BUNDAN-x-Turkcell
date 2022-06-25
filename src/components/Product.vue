@@ -28,21 +28,21 @@
           <v-btn
               small
               rounded
-              color="#164094"
+              color="#de6c02"
               class="white--text"
               @click="sheet = true"
           >
             Detaylar
           </v-btn>
           <v-bottom-sheet v-model="sheet" persistent class="c-rounded elevation-0">
-            <v-img src="../assets/bg/turkcell-ust.svg" class="wave-img">
+            <v-img src="../assets/bg/bundan-ust.svg" class="wave-img">
               <v-avatar
                   size="28"
                   :color="!threed ? 'grey lighten-5' : 'grey lighten-2'"
                   class="close-icon"
               >
                 <v-btn icon @click="sheet = !sheet">
-                  <v-icon :color="!threed ? 'grey darken-3' : '#164094'">mdi-close</v-icon>
+                  <v-icon :color="!threed ? 'grey darken-3' : '#de6c02'">mdi-close</v-icon>
                 </v-btn>
               </v-avatar>
             </v-img>
@@ -61,19 +61,19 @@
                                 quick-look-browsers="safari chrome"
                                 camera-controls="true"
                                 ar-status="not-presenting"
-                                camera-target="0m -0.3m 0m"
+                                camera-target="0m 0m 0m"
                                 camera-orbit="auto 25deg auto"
                                 min-camera-orbit="auto auto 0.75m"
                                 max-camera-orbit="auto auto 0.75m"
                   >
-                    <v-btn rounded color="#164094" slot="ar-button" height="30" width="100" class="custom-ar-button white--text mt-8 caption">
+                    <v-btn rounded color="#de6c02" slot="ar-button" height="30" width="100" class="custom-ar-button white--text mt-8 caption">
                       Masada Gör
                       <v-icon color="white" class="pl-2" dense> mdi-cube-scan </v-icon>
                     </v-btn>
                   </model-viewer>
                 </div>
                 <div class="product-div mt-0">
-                  <v-btn v-if="!threed && this.model" height="30" width="50" rounded color="#164094" class="custom-button white--text" @click="threed = !threed">
+                  <v-btn v-if="!threed && this.model" height="30" width="50" rounded color="#de6c02" class="custom-button white--text" @click="threed = !threed">
                     <v-row>
                       <v-avatar
                           class="v-avatar--left"
@@ -84,7 +84,7 @@
                       </v-avatar>
                     </v-row>
                   </v-btn>
-                  <v-btn v-if="threed && this.model" height="30" width="50" rounded color="#164094" class="custom-button white--text" @click="threed = !threed">
+                  <v-btn v-if="threed && this.model" height="30" width="50" rounded color="#de6c02" class="custom-button white--text" @click="threed = !threed">
                     <v-row>
                       <v-spacer/>
                       <v-avatar
@@ -197,7 +197,7 @@ model-viewer:host{
 }
 
 .custom-ar-button{
-  background-color: #164094;
+  background-color: #de6c02;
   color: white;
   border-radius: 40px;
   border: none;
@@ -208,7 +208,7 @@ model-viewer:host{
 
 
 .custom-button{
-  background-color: #164094;
+  background-color: #de6c02;
   border-radius: 40px;
   border: none;
   position: absolute;
