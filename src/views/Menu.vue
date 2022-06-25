@@ -67,10 +67,16 @@
 import Category from "@/components/Category";
 import Product from "@/components/Product"
 
-import Turkcell from "@/assets/icons/turkcell.svg";
-import BurgerP from  "@/assets/icons/burger-icon.svg";
-import BurgerS from  "@/assets/icons/burger-icon-s.svg";
-import TatlilarP from "@/assets/icons/tatlilar-icon.svg";
+import Telefonlar from "@/assets/icons/cep-telefonu-mavi.png";
+import EvAletleri from  "@/assets/icons/ev-aletleri-mavi.png";
+import Tablet from  "@/assets/icons/burger-tablet-mavi.png";
+import BeyazEsya from "@/assets/icons/beyaz-esya-mavi.png";
+
+import TelefonlarS from "@/assets/icons/cep-telefonu-sari.png";
+import EvAletleriS from  "@/assets/icons/ev-aletleri-sari.png";
+import TabletS from  "@/assets/icons/burger-tablet-sari.png";
+import BeyazEsyaS from "@/assets/icons/beyaz-esya-sari.png";
+
 import TatlilarS from "@/assets/icons/tatlilar-icon-s.svg";
 import TostlarP from "@/assets/icons/tostlar-icon.svg";
 import TostlarS from "@/assets/icons/tostlar-icon-s.svg";
@@ -189,11 +195,11 @@ export default {
     return {
       selectedCategory : '',
       categories: [
-          {name: "Telefonlar", icon: Turkcell, whicon: Turkcell},
-          // {name: "Tostlar", icon: TostlarP, whicon: TostlarS},
-          // {name: "Yan Ürünler", icon: EkstralarP, whicon: EkstralarS},
-          // {name: "Tatlılar", icon: TatlilarP, whicon: TatlilarS},
-          // {name: "Kahveler", icon: KahvelerP, whicon: KahvelerS},
+          {name: "Telefonlar", icon: TelefonlarS, whicon: Telefonlar},
+          {name: "Ev Aletleri", icon: EvAletleriS, whicon: EvAletleri},
+          {name: "Tablet", icon: TabletS, whicon: Tablet},
+          {name: "Beyaz Eşya", icon: BeyazEsyaS, whicon: BeyazEsya},
+          //{name: "Kahveler", icon: KahvelerP, whicon: KahvelerS},
           // {name: "Çaylar", icon: BitkiCaylariP, whicon: BitkiCaylariS},
           // {name: "Soğuk İçecekler", icon: SogukIceceklerP, whicon:SogukIceceklerS},
 
@@ -214,7 +220,7 @@ export default {
           //{name: "Baltazar Texas Burger",category:"Burgerler",price:"20",minute:"20 Dk",img:BaltazarTexas,id:"3",model:"/models/Baltazar2-70.glb"},
 
           {name: "iPhone 13 Pro Max",category:"Telefonlar",price:"20",minute:"20 Dk",img:iphone,id:"3",model:"/models/iphone-13-scaled.glb"},
-          {name: "Samsung Galaxy S22 Ultra",category:"Telefonlar",price:"20",minute:"20 Dk",img:firavun,id:"4",model:"/models/firavun-yer.glb"},
+          {name: "Samsung Galaxy S22 Ultra",category:"Telefonlar",price:"20",minute:"20 Dk",img:samsung,id:"4",model:"/models/samsung-s20.glb"},
           // {name: "Special Burger",category:"Burgerler",price:"20",minute:"20 Dk",img:Special,id:"5",model:"/models/scaled_burger.glb"},
           // {name: "Chicken Burger",category:"Burgerler",price:"20",minute:"20 Dk",img:Chicken,id:"1",model:"/models/scaled_burger.glb"},
           // {name: "Classic Burger",category:"Burgerler",price:"20",minute:"20 Dk",img:Klasik,id:"2",model:"/models/scaled_burger.glb"},
@@ -272,7 +278,7 @@ export default {
 <style scoped>
 .logo{
   border-style: solid;
-  border-color: #dd6c03;
+  border-color: #164094;
 }
 .logo-card{
   border-style: solid;
