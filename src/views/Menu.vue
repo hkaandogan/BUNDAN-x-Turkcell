@@ -69,12 +69,12 @@ import Product from "@/components/Product"
 
 import Telefonlar from "@/assets/icons/cep-telefonu-mavi.png";
 import EvAletleri from  "@/assets/icons/ev-aletleri-mavi.png";
-import Tablet from  "@/assets/icons/burger-tablet-mavi.png";
+import Tablet from  "@/assets/icons/tablet-mavi.png";
 import BeyazEsya from "@/assets/icons/beyaz-esya-mavi.png";
 
 import TelefonlarS from "@/assets/icons/cep-telefonu-sari.png";
 import EvAletleriS from  "@/assets/icons/ev-aletleri-sari.png";
-import TabletS from  "@/assets/icons/burger-tablet-sari.png";
+import TabletS from  "@/assets/icons/tablet-sari.png";
 import BeyazEsyaS from "@/assets/icons/beyaz-esya-sari.png";
 
 import TatlilarS from "@/assets/icons/tatlilar-icon-s.svg";
