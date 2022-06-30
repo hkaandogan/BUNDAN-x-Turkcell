@@ -219,10 +219,13 @@ export default {
           //{name: "Baltazar Burger",category:"Burgerler",price:"20",minute:"20 Dk",img:Baltazar,id:"3",model:"/models/Baltazar1-70.glb"},
           //{name: "Baltazar Texas Burger",category:"Burgerler",price:"20",minute:"20 Dk",img:BaltazarTexas,id:"3",model:"/models/Baltazar2-70.glb"},
 
-          {name: "Buzdolabı",category:"Telefonlar",price:"",minute:"",img:iphone,id:"3",model:"/models/buzdolabi.glb"},
-          {name: "Samsung Galaxy S22 Ultra",category:"Telefonlar",price:"",minute:"",img:samsung,id:"4",model:"/models/samsung-s20.glb"},
+          {name: "Turkcell Buzdolabı",category:"Telefonlar",price:"",minute:"",img:buzdolabi,id:"7",model:"/models/buzdolabi.glb"},
+          {name: "LG Çamaşır Makinesi",category:"Telefonlar",price:"",minute:"",img:camasir,id:"8",model:"/models/camasir-makinesi.glb"},
           {name: "Apple MacBook Pro",category:"Telefonlar",price:"",minute:"",img:laptop,id:"9",model:"/models/macbook.glb"},
           {name: "Apple Watch",category:"Telefonlar",price:"",minute:"",img:watch,id:"10",model:"/models/watch.glb"},
+
+
+
 
           {name: "Asus TUF VG27AQ",category:"Tablet/Bilgisayar",price:"",minute:"",img:monitor,id:"5",model:"/models/samsung-s20.glb"},
           {name: "Apple MacBook Pro",category:"Tablet/Bilgisayar",price:"",minute:"",img:laptop,id:"1",model:"/models/samsung-s20.glb"},
@@ -230,8 +233,8 @@ export default {
           {name: "Fakir Kaave Makinesi",category:"Ev Aletleri",price:"",minute:"",img:kahve,id:"2",model:"/models/samsung-s20.glb"},
           {name: "Dyson V12",category:"Ev Aletleri",price:"",minute:"",img:supurge,id:"6",model:"/models/samsung-s20.glb"},
           
-          {name: "Arçelik Buzdolabı",category:"Beyaz Eşya",price:"",minute:"",img:buzdolabi,id:"7",model:"/models/samsung-s20.glb"},
-          {name: "Bosch Çamaşır Makinesi",category:"Beyaz Eşya",price:"",minute:"",img:camasir,id:"8",model:"/models/samsung-s20.glb"},
+          {name: "Turkcell Buzdolabı",category:"Beyaz Eşya",price:"",minute:"",img:buzdolabi,id:"7",model:"/models/buzdolabi.glb"},
+          {name: "LG Çamaşır Makinesi",category:"Beyaz Eşya",price:"",minute:"",img:camasir,id:"8",model:"/models/camasir-makinesi.glb"},
           // {name: "Papatya",category:"Çaylar",price:"20",minute:"",img:Papatya,id:"9",model:""},
           //{name: "Brasil",category:"Demlemekahveler",price:"20",minute:"20 Dk",img:Brasil,id:"10",model:""},
           //{name: "Burundi",category:"Demlemekahveler",price:"20",minute:"20 Dk",img:Burundi,id:"11",model:""},
