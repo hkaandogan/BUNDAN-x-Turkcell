@@ -67,7 +67,7 @@
                                 max-camera-orbit="auto auto 0.75m"
                   >
                     <v-btn rounded color="#fe6820" slot="ar-button" height="30" width="100" class="custom-ar-button white--text mt-8 caption">
-                      Masada Gör
+                      Evinde Gör
                       <v-icon color="white" class="pl-2" dense> mdi-cube-scan </v-icon>
                     </v-btn>
                   </model-viewer>
@@ -108,10 +108,10 @@
                  </v-container>
                   <div class="mt-2 pt-0 font-weight-bold text-h5" style="font-family: 'Red Hat Display', sans-serif !important;">{{ product.name }}</div>
                   <div class="mt-3 pb-0 body-2" style="font-family: 'Red Hat Display', sans-serif !important;">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Masa Lambası Akrobat Yaylı Metal 360° Açılı Ayarlanabilir Hareketli Çalışma Masası Lambası Beyaz.
                   </div>
                   <div class=" mt-2 pb-2 caption" style="font-family: 'Red Hat Display', sans-serif !important;">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    
                   </div>
                   <v-container class="pa-0">
                     <v-row class="mt-3" justify="space-between">
