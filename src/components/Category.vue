@@ -1,7 +1,7 @@
 <template>
   <v-slide-item v-slot="{ active, toggle }">
     <v-card
-      :color="active ? '#FFC501' : 'white'"
+      :color="active ? '#fe6820' : 'white'"
       @click="toggle"
       v-on:click="getproducts(cname)"
       class="pa-4"
