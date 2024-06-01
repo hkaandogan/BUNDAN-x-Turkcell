@@ -34,6 +34,7 @@
     "not dead"
   ],
   "engines": {
-    "node": "20.x"
+    "node": "18.12.1",
+    "npm": "8.19.2"
   }
 }
