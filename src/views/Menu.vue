@@ -288,7 +288,7 @@ export default {
 <style scoped>
 .logo{
   border-style: solid;
-  border-color: #164094;
+  border-color: #fe6820;
 }
 .logo-card{
   border-style: solid;
