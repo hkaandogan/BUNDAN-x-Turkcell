@@ -33,8 +33,4 @@
     "last 2 versions",
     "not dead"
   ],
-  "engines": {
-    "node": "20.x",
-    "npm": "20.x"
-  }
 }
