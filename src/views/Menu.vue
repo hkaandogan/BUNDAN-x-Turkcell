@@ -219,7 +219,7 @@ export default {
           //{name: "Baltazar Burger",category:"Burgerler",price:"20",minute:"20 Dk",img:Baltazar,id:"3",model:"/models/Baltazar1-70.glb"},
           //{name: "Baltazar Texas Burger",category:"Burgerler",price:"20",minute:"20 Dk",img:BaltazarTexas,id:"3",model:"/models/Baltazar2-70.glb"},
 
-          {name: "Masa Lambası Beyaz",category:"Telefonlar",price:"2.899,99₺",minute:"",img:lamba,id:"7",model:"/models/buzdolabi.glb"},
+          {name: "Masa Lambası Beyaz",category:"Telefonlar",price:"2.899,99",minute:"",img:lamba,id:"7",model:"/models/buzdolabi.glb"},
           {name: "LG Çamaşır Makinesi",category:"Telefonlar",price:"",minute:"",img:camasir,id:"8",model:"/models/camasir-makinesi.glb"},
           {name: "Apple MacBook Pro",category:"Telefonlar",price:"",minute:"",img:laptop,id:"9",model:"/models/macbook.glb"},
           {name: "Apple Watch",category:"Telefonlar",price:"",minute:"",img:watch,id:"10",model:"/models/watch.glb"},
