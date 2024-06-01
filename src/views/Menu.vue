@@ -7,7 +7,7 @@
           hide-on-scroll
           color="transparent"
           elevation="0"
-          src="../assets/bg/ust-dalga-turkcell.svg"
+          src="../assets/bg/ust-dalga.svg"
           :height="$vuetify.breakpoint.mobile? '60' :  '120'">
         <template v-slot:img="{props}">
           <v-img
@@ -21,7 +21,7 @@
             elevation="0"
             class="rounded-circle mt-12 logo-card">
           <v-img
-              src="../assets/turkcell-logo.svg"
+              src="../assets/trendyol.svg"
               :max-height="$vuetify.breakpoint.mobile? '85' :  '120'"
               :max-width="$vuetify.breakpoint.mobile? '85' :  '120'"
               v-bind:style="$vuetify.breakpoint.mobile? 'border-width: 6px;' :'border-width: 9px;'"
@@ -41,7 +41,7 @@
                         :whicon="category.whicon"
                         :cname="category.name"
                         :getproducts="getproducts"
-                        :isfirst = "category.name==='Telefonlar'"
+                        :isfirst = "category.name==='Ev Eşyası'"
                     />
                 </v-col>
               </v-row>
@@ -67,12 +67,12 @@
 import Category from "@/components/Category";
 import Product from "@/components/Product"
 
-import Telefonlar from "@/assets/icons/cep-telefonu-mavi.png";
+import EvEşyasıİkon from "@/assets/icons/ev-esyasi.svg";
 import EvAletleri from  "@/assets/icons/ev-aletleri-mavi.png";
 import Tablet from  "@/assets/icons/tablet-mavi.png";
 import BeyazEsya from "@/assets/icons/beyaz-esya-mavi.png";
 
-import TelefonlarS from "@/assets/icons/cep-telefonu-sari.png";
+import EvEşyasıİkonT from "@/assets/icons/ev-esyasi-turuncu.svg";
 import EvAletleriS from  "@/assets/icons/ev-aletleri-sari.png";
 import TabletS from  "@/assets/icons/tablet-sari.png";
 import BeyazEsyaS from "@/assets/icons/beyaz-esya-sari.png";
@@ -197,10 +197,10 @@ export default {
     return {
       selectedCategory : '',
       categories: [
-          {name: "Telefonlar", icon: TelefonlarS, whicon: Telefonlar},
-          {name: "Ev Aletleri", icon: EvAletleriS, whicon: EvAletleri},
-          {name: "Tablet/Bilgisayar", icon: TabletS, whicon: Tablet},
-          {name: "Beyaz Eşya", icon: BeyazEsyaS, whicon: BeyazEsya},
+          {name: "Ev Eşyası", icon: TelefonlarS, whicon: Telefonlar},
+          //{name: "Ev Aletleri", icon: EvAletleriS, whicon: EvAletleri},
+          //{name: "Tablet/Bilgisayar", icon: TabletS, whicon: Tablet},
+          //{name: "Beyaz Eşya", icon: BeyazEsyaS, whicon: BeyazEsya},
           //{name: "Kahveler", icon: KahvelerP, whicon: KahvelerS},
           // {name: "Çaylar", icon: BitkiCaylariP, whicon: BitkiCaylariS},
           // {name: "Soğuk İçecekler", icon: SogukIceceklerP, whicon:SogukIceceklerS},
@@ -221,22 +221,22 @@ export default {
           //{name: "Baltazar Burger",category:"Burgerler",price:"20",minute:"20 Dk",img:Baltazar,id:"3",model:"/models/Baltazar1-70.glb"},
           //{name: "Baltazar Texas Burger",category:"Burgerler",price:"20",minute:"20 Dk",img:BaltazarTexas,id:"3",model:"/models/Baltazar2-70.glb"},
 
-          {name: "Turkcell Buzdolabı",category:"Telefonlar",price:"",minute:"",img:lamba,id:"7",model:"/models/buzdolabi.glb"},
-          {name: "LG Çamaşır Makinesi",category:"Telefonlar",price:"",minute:"",img:camasir,id:"8",model:"/models/camasir-makinesi.glb"},
-          {name: "Apple MacBook Pro",category:"Telefonlar",price:"",minute:"",img:laptop,id:"9",model:"/models/macbook.glb"},
-          {name: "Apple Watch",category:"Telefonlar",price:"",minute:"",img:watch,id:"10",model:"/models/watch.glb"},
+          {name: "Masa Lambası Beyaz",category:"Ev Eşyası",price:"",minute:"",img:lamba,id:"7",model:"/models/buzdolabi.glb"},
+          //{name: "LG Çamaşır Makinesi",category:"Telefonlar",price:"",minute:"",img:camasir,id:"8",model:"/models/camasir-makinesi.glb"},
+          //{name: "Apple MacBook Pro",category:"Telefonlar",price:"",minute:"",img:laptop,id:"9",model:"/models/macbook.glb"},
+          //{name: "Apple Watch",category:"Telefonlar",price:"",minute:"",img:watch,id:"10",model:"/models/watch.glb"},
 
 
 
 
-          {name: "Asus TUF VG27AQ",category:"Tablet/Bilgisayar",price:"",minute:"",img:monitor,id:"5",model:"/models/samsung-s20.glb"},
-          {name: "Apple MacBook Pro",category:"Tablet/Bilgisayar",price:"",minute:"",img:laptop,id:"1",model:"/models/samsung-s20.glb"},
+          //{name: "Asus TUF VG27AQ",category:"Tablet/Bilgisayar",price:"",minute:"",img:monitor,id:"5",model:"/models/samsung-s20.glb"},
+          //{name: "Apple MacBook Pro",category:"Tablet/Bilgisayar",price:"",minute:"",img:laptop,id:"1",model:"/models/samsung-s20.glb"},
           
-          {name: "Fakir Kaave Makinesi",category:"Ev Aletleri",price:"",minute:"",img:kahve,id:"2",model:"/models/samsung-s20.glb"},
-          {name: "Dyson V12",category:"Ev Aletleri",price:"",minute:"",img:supurge,id:"6",model:"/models/samsung-s20.glb"},
+          //{name: "Fakir Kaave Makinesi",category:"Ev Aletleri",price:"",minute:"",img:kahve,id:"2",model:"/models/samsung-s20.glb"},
+          //{name: "Dyson V12",category:"Ev Aletleri",price:"",minute:"",img:supurge,id:"6",model:"/models/samsung-s20.glb"},
           
-          {name: "Turkcell Buzdolabı",category:"Beyaz Eşya",price:"",minute:"",img:buzdolabi,id:"7",model:"/models/buzdolabi.glb"},
-          {name: "LG Çamaşır Makinesi",category:"Beyaz Eşya",price:"",minute:"",img:camasir,id:"8",model:"/models/camasir-makinesi.glb"},
+          //{name: "Turkcell Buzdolabı",category:"Beyaz Eşya",price:"",minute:"",img:buzdolabi,id:"7",model:"/models/buzdolabi.glb"},
+          //{name: "LG Çamaşır Makinesi",category:"Beyaz Eşya",price:"",minute:"",img:camasir,id:"8",model:"/models/camasir-makinesi.glb"},
           // {name: "Papatya",category:"Çaylar",price:"20",minute:"",img:Papatya,id:"9",model:""},
           //{name: "Brasil",category:"Demlemekahveler",price:"20",minute:"20 Dk",img:Brasil,id:"10",model:""},
           //{name: "Burundi",category:"Demlemekahveler",price:"20",minute:"20 Dk",img:Burundi,id:"11",model:""},
