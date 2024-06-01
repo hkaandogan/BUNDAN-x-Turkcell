@@ -235,7 +235,7 @@ export default {
           //{name: "Fakir Kaave Makinesi",category:"Ev Aletleri",price:"",minute:"",img:kahve,id:"2",model:"/models/samsung-s20.glb"},
           //{name: "Dyson V12",category:"Ev Aletleri",price:"",minute:"",img:supurge,id:"6",model:"/models/samsung-s20.glb"},
           
-          //{name: "Turkcell Buzdolabı",category:"Beyaz Eşya",price:"",minute:"",img:buzdolabi,id:"7",model:"/models/buzdolabi.glb"},
+          //{name: "Turkcell Buzdolabı",category:"Beyaz Eşya",price:"",minute:"",img:buzdolabi,id:"7",model:"/models/lamba-1.glb"},
           //{name: "LG Çamaşır Makinesi",category:"Beyaz Eşya",price:"",minute:"",img:camasir,id:"8",model:"/models/camasir-makinesi.glb"},
           // {name: "Papatya",category:"Çaylar",price:"20",minute:"",img:Papatya,id:"9",model:""},
           //{name: "Brasil",category:"Demlemekahveler",price:"20",minute:"20 Dk",img:Brasil,id:"10",model:""},
