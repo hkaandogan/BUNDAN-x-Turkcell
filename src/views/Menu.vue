@@ -197,7 +197,7 @@ export default {
     return {
       selectedCategory : '',
       categories: [
-          {name: "Ev Eşyası", icon: TelefonlarS, whicon: Telefonlar},
+          {name: "Ev Eşyası", icon: EvEşyasıİkon, whicon: EvEşyasıİkonT},
           //{name: "Ev Aletleri", icon: EvAletleriS, whicon: EvAletleri},
           //{name: "Tablet/Bilgisayar", icon: TabletS, whicon: Tablet},
           //{name: "Beyaz Eşya", icon: BeyazEsyaS, whicon: BeyazEsya},
